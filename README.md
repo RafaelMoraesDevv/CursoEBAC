@@ -9,3 +9,7 @@
 * Aula 3: Formatação de textos
 * Aula 4: Tabelas e layouts tabelados
 * Aula 5: Elementos de layout
+* Aula 6: Formulários
+* Aula 7: Navegadores
+* Aula 8: DOM - HTML
+* Aula 9: Conceitos básicos Design
