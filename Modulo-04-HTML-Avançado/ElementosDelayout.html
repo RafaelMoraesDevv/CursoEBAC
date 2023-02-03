@@ -5,8 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elementos de layout</title>
+
+    <style>
+
+        * {
+         box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 30%;
+            background: #ccc;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+             list-style-type: none;
+             padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            background: #ccc;
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+         nav, article {
+            width: 100%;
+            height: auto;
+            }
+        }
+        </style>
 </head>
 <body>
+    <!--Exemplo de um site com tags sematicas-->
     <h1>Elementos de layout</h1>
+
+    <header>
+        <h2>Titulo da pagina</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <article>
+        <h1>Titulo artigo</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi excepturi vitae in autem officiis molestias dicta dolorem doloribus necessitatibus corporis sequi quod laudantium, totam veritatis sint, quasi quia nesciunt doloremque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores autem, in, aliquam quaerat laborum fuga repellendus cumque dolorum expedita aspernatur cum repudiandae quis nisi excepturi laboriosam omnis sed non. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque sed dignissimos aliquid alias! Maxime sapiente architecto temporibus laborum neque velit laudantium. Voluptate alias iste modi dolorum inventore odio totam veniam.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi excepturi vitae in autem officiis molestias dicta dolorem doloribus necessitatibus corporis sequi quod laudantium, totam veritatis sint, quasi quia nesciunt doloremque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus asperiores autem, in, aliquam quaerat laborum fuga repellendus cumque dolorum expedita aspernatur cum repudiandae quis nisi excepturi laboriosam omnis sed non. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque sed dignissimos aliquid alias! Maxime sapiente architecto temporibus laborum neque velit laudantium. Voluptate alias iste modi dolorum inventore odio totam veniam.</p>
+    </article>
+
+    <footer>
+        <p>Desenvolvido por Rafael</p>
+    </footer>
 </body>
 </html>
