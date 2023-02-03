@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do módulo 04</title>
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        /* Style the header */
+        header {
+          background-color: #1E90FF;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+          float: left;
+          width: 30%;
+          background: #F8F8FF;
+          padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+          
+        }
+
+        li > a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        article {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #F8F8FF;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+          background: #ccc;
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+          background-color: #1E90FF;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+          nav, article {
+            width: 100%;
+            height: auto;
+          }
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h2>Curso Front-end - HTML</h2>
+    </header>
+
+    <section>
+
+        <nav>
+            <h3>Aulas</h3>
+            <ul>
+                <li><a href="#">Introdução</a></li>
+                <li><a href="#">Listas e Links</a></li>
+                <li><a href="#">Formatação de Texto</a></li>
+                <li><a href="#">Tabelas</a></li>
+                <li><a href="#">Layouts</a></li>
+                <li><a href="#">Formulários</a></li>
+            </ul>
+
+            <h3>Redes Sociais</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/rafael-dos-santos-moraes-a30aa9161/" target="_blank">LinkedIn</li>
+                <li><a href="https://www.facebook.com/rafael.santos.100/" target="_blank">Fecebook</a></li>
+                <li><a href="https://www.instagram.com/rafael.moraees/" target="_blank">Instagram</a></li>
+            </ul>
+        </nav>
+
+        <article>
+
+            <img width="200" src="https://media.licdn.com/dms/image/D4D35AQEhDTOwkBB04Q/profile-framedphoto-shrink_200_200/0/1673989280296?e=1676066400&amp;v=beta&amp;t=kYq-AN_VerqIg2ZCOkdcdKAYmAGTVCjwX4Oxv3f89gM" height="200" alt="Rafael Dos Santos Moraes, #OPEN_TO_WORK" id="ember34" class="ember-view profile-photo-edit__preview">
+            
+            <h2>Rafael Dos Santos Moraes</h2>
+
+            <p>Meu nome é <strong>Rafael Dos Santos Moraes</strong>, tenho 25 anos e atualmente sou estudante de tecnologia, no momento trabalho com suporte ao usuario e futuramente pretendo me tornar um excelente <strong>Desenvolvedor Front - End:</strong></p>
+            
+
+        </article>
+
+
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Rafael Dos Santos Moraes</p>
+    </footer>
+</body>
+</html>
