@@ -13,3 +13,9 @@
 * Aula 7: Navegadores
 * Aula 8: DOM - HTML
 * Aula 9: Conceitos básicos Design
+* Aula 10: Introdução ao CSS
+* Aula 11: Seletores
+* Aula 12: Unidades
+* Aula 13: Box Model
+* Aula 14: Posicionamento de elementos
+* Aula 15:
