@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #aaa;
+    margin-bottom: 20px;
+}
+
+h1, p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#paragrafo {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 40%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #bbb;
+}
+
+form div {
+    background-color: #ddd;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+form div:hover {
+    background-color: #ccc;
+    transition: .5s ease-in-out;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+}
+
+#textarea {
+    padding: 10px;
+}
+
+select {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.btn {
+    border: 1px solid #000;
+    width: 20%;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    transition: .5s ease-in-out;
+}

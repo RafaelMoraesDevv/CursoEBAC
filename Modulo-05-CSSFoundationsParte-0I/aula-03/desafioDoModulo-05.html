@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Desafio do módulo 03</title>
+</head>
+<body>
+    <form action="get">
+        <h1 id="titulo">Desafio do módulo 03</h1>
+        <P id="paragrafo">Preencha os campos abaixo</P>
+
+        <div>
+            <input type="text" name="nome" id="nome" placeholder="Nome:">
+        </div>
+
+        <div>
+            <input type="email" name="email" id="email" placeholder="Email:">
+        </div>
+
+        <div>
+            <input type="tel" name="celular" id="celular" placeholder="Digite seu celular">
+        </div>
+
+        <select>
+            <option value="Escolaridade">Minha escolaridade</option>
+            <option value="Ensino medio">Ensino Médio</option>
+            <option value="Ensino superior">Ensino Superior</option>
+            <option value="Pos graduacao">Pós Graduação</option>
+            <option value="Doutorado">Doutorado</option>
+            <option value="Mestrado">Mestrado</option>
+        </select>
+
+        <div id="textarea">
+            <label for="sobre">Fale um pouco sobre você?</label> <br>
+            <textarea name="sobre" id="sobre" cols="30" rows="10" class="label"></textarea>
+        </div>
+
+        <input type="submit" value="Enviar" class="btn">
+        <input type="reset" value="Apagar" class="btn">
+    </form>
+</body>
+</html>
