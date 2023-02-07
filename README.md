@@ -18,4 +18,10 @@
 * Aula 12: Unidades
 * Aula 13: Box Model
 * Aula 14: Posicionamento de elementos
-* Aula 15:
+* Aula 15: Herança
+* Aula 16: Combinadores
+* Aula 17: Reset
+* Aula 18: Texto e Tipografia
+* Aula 19: Cores
+* Aula 20: CSS para tabelas
+* Aula 21: DOM - Styles
