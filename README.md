@@ -25,3 +25,25 @@
 * Aula 19: Cores
 * Aula 20: CSS para tabelas
 * Aula 21: DOM - Styles
+* Aula 22: Visual Studio Code
+* Aula 23: Layouts Fluidos
+* Aula 24: Adaptação de imagens para web
+* Aula 26: Filtros e Manipulação com CSS
+* Aula 27: Layout Semantico
+* Aula 28: Navegação web
+* Aula 29: Introdução a Web Design Responsivo
+* Aula 30: Conceitos de versionamento
+* Aula 31: Criação de conta no GitHub
+* Aula 32: Clonar projeto
+* Aula 33: Comitar alterações
+* Aula 34: Git Flow
+* Aula 35: Git Flow
+* Aula 36: O que é Inbound Marketing?
+* Aula 37: Post de Blog
+* Aula 38: E-mail Marketing
+* Aula 39: Formulários
+* Aula 40: 
+* Aula 41: 
+* Aula 42:
+* Aula 43: 
+* Aula 44:
