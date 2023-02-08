@@ -17,6 +17,7 @@ Body {
     float: left;
     width: 100%;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 header {
@@ -59,7 +60,10 @@ p {
     color: #454545;
 }
 
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 ol {
     margin-left: 30px;
@@ -101,8 +105,14 @@ section article {
     width: 70%;
 }
 
+#form {
+    background-color: #8694a0;
+    padding: 10;    
+    text-align: center;
+}
+
 #tenho-interesse {
-    
+    width: 100%;
 }
 
 nav a {
@@ -133,6 +143,32 @@ footer small {
     display: block;
 }
 
-.cog-abuse, .cog-icon {
-    visibility: hidden !important;
+.cognit {
+    height: 360px;
+    overflow: hidden;
+}
+
+html .cog-form__container, :root:root:root:root:root .cog-form__container {
+    background-color: #8694a0 !important;
+}
+
+html .cog-row .cog-col:not(td), :root:root:root:root:root .cog-row .cog-col:not(td) {
+    width: 70%;
+    margin: 0 auto;
+}
+
+html .cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+html .cog-cognito--styled .cog-header h1, :root:root:root:root:root .cog-cognito--styled .cog-header h1  {
+    text-align: center;
+    margin-top: 20px;
+    color: #254159;
+}
+
+html .cog-label, :root:root:root:root:root .cog-label {
+    color: #254159;
 }
