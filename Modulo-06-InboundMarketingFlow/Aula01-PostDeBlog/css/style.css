@@ -59,6 +59,8 @@ p {
     color: #454545;
 }
 
+
+
 ol {
     margin-left: 30px;
 }
@@ -99,6 +101,10 @@ section article {
     width: 70%;
 }
 
+#tenho-interesse {
+    
+}
+
 nav a {
     text-decoration: none;
     color: #254159;
@@ -125,4 +131,8 @@ footer p {
 footer small {
     color: #fff;
     display: block;
+}
+
+.cog-abuse, .cog-icon {
+    visibility: hidden !important;
 }
