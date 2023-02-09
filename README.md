@@ -42,8 +42,8 @@
 * Aula 37: Post de Blog
 * Aula 38: E-mail Marketing
 * Aula 39: Formulários
-* Aula 40: 
-* Aula 41: 
-* Aula 42:
+* Aula 40: Landing Page
+* Aula 41: URLs Amigáveis e Encurtadores
+* Aula 42: Publicação
 * Aula 43: 
 * Aula 44:
