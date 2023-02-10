@@ -45,5 +45,16 @@
 * Aula 40: Landing Page
 * Aula 41: URLs Amigáveis e Encurtadores
 * Aula 42: Publicação
-* Aula 43: 
-* Aula 44:
+* Aula 44: Primeiros passos
+* Aula 45: Lógica de Programação
+* Aula 46: Funcionalidades gerais
+* Aula 47: Operadores
+* Aula 48: Condicionais
+* Aula 49: Loops
+* Aula 50: Funções
+* Aula 51: Funções Recursivas
+* Aula 52: Eventos
+* Aula 53: DOM - Core
+* Aula 54: Seletores
+* Aula 55: Formulários
+* Aula 56: 
