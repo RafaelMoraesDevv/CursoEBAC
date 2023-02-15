@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
 header{
     background-color: cadetblue;
     color: #fff;
@@ -10,6 +11,7 @@ header{
 .nav-link{
     color: #fff;
 }
+
 section {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -38,6 +40,14 @@ footer {
     display: flex;
   }
 
+  .sobre{
+    flex-direction: column-reverse;
+  }
+
+  .sobre img {
+    margin-bottom: 3rem;
+  }
+
   .col h1{
     text-align: center;
   }
@@ -49,11 +59,11 @@ footer {
 
   section {
    padding:0;
-   margin-top: 2rem;
-   margin-bottom: 2rem;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
   }
 
   .bottom {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 }
