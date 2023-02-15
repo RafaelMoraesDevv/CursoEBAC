@@ -57,4 +57,9 @@
 * Aula 53: DOM - Core
 * Aula 54: Seletores
 * Aula 55: Formulários
-* Aula 56: 
+* Aula 56: Bootstrap - Visão Geral | instalar bootstrap no projeto e aplicar conceitos no grid layout
+* Aula 57: Bootstrap Layout , criar layouts responsivos com bootstrap
+* Aula 58: Bootstrap - Elementos | como utilizar elementos DO em páginas web
+* Aula 59: Bootstrap - Modals
+* Aula 60: 
+* Aula 61: 
