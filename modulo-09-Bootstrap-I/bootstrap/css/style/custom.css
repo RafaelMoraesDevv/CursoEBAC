@@ -8,6 +8,10 @@ header{
     padding: 1rem;
 }
 
+header a {
+  color: #fff;
+}
+
 .nav-link{
     color: #fff;
 }
