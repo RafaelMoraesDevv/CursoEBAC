@@ -61,5 +61,13 @@
 * Aula 57: Bootstrap Layout , criar layouts responsivos com bootstrap
 * Aula 58: Bootstrap - Elementos | como utilizar elementos DO em páginas web
 * Aula 59: Bootstrap - Modals
-* Aula 60: 
-* Aula 61: 
+* Aula 60: Bootstrap - Formulários
+* Aula 61: Bootstrap - Componentes
+* Aula 62: Bootstrap - Helpers
+* Aula 63: Bootstrap - Utilitários
+* Aula 64: Font Awesome
+* Aula 65: Introdução
+* Aula 66: Seletores
+* Aula 67: Manipulação de HTML
+* Aula 68: Manipulação de CSS
+* Aula 69: Eventos
