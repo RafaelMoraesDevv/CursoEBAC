@@ -48,6 +48,22 @@ $(document).ready(function(){
         alert('Produto esgotado');
 
      })
+
+   /* 
+     * Callback
+     * Entendendo ações que começam ao termino de outra.
+   */
+     $('.featured-item:nth(1)').hide(500, function(){
+
+      //Este é o Callback
+      console.log( $(this).find('h4').text() + ' Esgotado')
+     })
+
+     .show(500, function(){
+      console.log( $(this).find('h4').text() + ' Em estoque')
+     })
+
+  
      
      
      
