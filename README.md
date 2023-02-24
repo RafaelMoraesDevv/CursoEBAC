@@ -70,4 +70,11 @@
 * Aula 66: Seletores
 * Aula 67: Manipulação de HTML
 * Aula 68: Manipulação de CSS
-* Aula 69: Eventos
+* Aula 69: Callbacks
+* Aula 70: Animações
+* Aula 71: Formulários - máscaras e validação
+* Aula 72: 
+* Aula 73: 
+* Aula 74: 
+* Aula 75: 
+* Aula 76: 
